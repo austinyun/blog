@@ -1,7 +1,8 @@
 Title: Node JS Installation and Startup Woes
+Author: Austin Yun
 Date: 2012-05-28
 
-The node package that comes with Ubuntu 12.04 is... well, it works, but npm doesn't. Either that, or I just have no idea what I'm doing. It could very well be the latter. So right now I'm giving nvm a try, which is the node version manager.
+So right now I'm giving nvm a try, which is the node version manager.
 
 First I uninstalled the apt version of node
 
@@ -22,9 +23,15 @@ Exit and reopen the terminal:
 That seemed to work amazingly well. Now, we go:
 
     npm install express -g
-    npm install wheat -g
 
-To install Express and Wheat globally. I also made a dir for node modules, just in case.
+To install Express, which I'm not using at the moment but likely will in the future. But more importantly,
+
+    cd ~/blog/server
+    npm install wheat
+
+Install Wheat.
+
+I also made a dir for node modules, just in case.
 
     sudo mkdir /usr/local/lib/node_modules/
     sudo chown austin /usr/local/lib/node_modules/

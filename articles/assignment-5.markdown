@@ -1,5 +1,6 @@
 Title: C Sci 143 Assignment #5
-Date: 2012-05-22 Tuesday
+Author: Austin Yun
+Date: 2012-05-22
 
 ## The Problem
 
