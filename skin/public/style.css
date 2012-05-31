@@ -77,6 +77,19 @@ dl a:hover {
   top: -35px;
   left: 18px;
 }
+#header .hthing {
+  float: left;
+  display: inline;
+  color: #fff;
+  margin-left: 10%;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  margin-top: 19px;
+}
 #header .tagline {
   float: left;
   display: inline;
