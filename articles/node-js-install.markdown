@@ -35,7 +35,7 @@ To install Express, a web framework for Node, which I'm not using at the moment 
 
 ### The blog engine
 
-So if you haven't been to [howtonode][], you really should check it out, if for no other reason than to check out a blog that's running on Wheat, a blog engine written in Node. In fact, Tim Caswell of [howtonode][] wrote Wheat, but unfortunately kind of skimped on the documentation. His suggestion to get up and running is to just clone the howtonode GitHub repository.
+So if you haven't been to [howtonode][1] you really should check it out, if for no other reason than to check out a blog that's running on Wheat, a blog engine written in Node. In fact, Tim Caswell of [howtonode][1] wrote Wheat, but unfortunately kind of skimped on the documentation. His suggestion to get up and running is to just clone the howtonode GitHub repository.
 
     cd
     git clone git://github.com/creationix/howtonode.org.git
@@ -55,3 +55,5 @@ Anyway, do,
     node ~/blog/server/server.js
 
 And point your browser to localhost:8080 to see your blog, which should look exactly like howtonode.org. For obvious reasons.
+
+[1]: http://howtonode.org "How To Node"
