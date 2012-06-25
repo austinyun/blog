@@ -1,0 +1,22 @@
+{
+  "author": "Austin Yun <w.austin.yun@gmail.com> (http://austinyun.com)",
+  "name": "austinyun.com",
+  "description": "Personal blog of Austin Yun",
+  "version": "0.0.1",
+  "homepage": "http://austinyun.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/austinyun/blog.git"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "dependencies": {
+    "stack": ">=0.0.3",
+    "creationix": ">=0.1.2",
+    "wheat": ">=0.2.0",
+    "cluster": ">=0.6.4"
+  },
+  "devDependencies": {}
+
+}
