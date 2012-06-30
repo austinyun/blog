@@ -19,3 +19,27 @@ is.
 One of my big hangups is that I'm trying to figure out how git-fs determines
 what the SHA/version of a file is. And every other call made to git-fs depends
 on that. Lol.
+
+Day 2
+-----
+
+Alright, so after reading a lot of code and tinkering, I've got git-fs mostly
+down. Phew. Turns out git-fs itself isn't that complicated, the problem came
+mostly from my misunderstanding the number of arguments in callbacks due to
+Wheat using the Step library.
+
+    Git.readDir("fs", "entries", function(err, data) {});
+
+Learning about routing
+----------------------
+
+So with that first bit out of the way, I tried puzzling my way through MapleTree
+and decided to switch to choreographer, which is... simpler, in a lot of ways.
+MapleTree just does a lot of stuff I don't need. On the other hand,
+choreographer hasn't been updated in a while so I may switch sometime. I dunno.
+Then again, choreographer is simple enough that I don't see it breaking or
+needing updates, really.
+
+
+Anyway, so now that I've got the ability to grab a buffer of markdown, next up
+is rendering and serving it. Hurrah.
