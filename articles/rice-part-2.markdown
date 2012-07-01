@@ -30,8 +30,7 @@ Wheat using the Step library.
 
     Git.readDir("fs", "entries", function(err, data) {});
 
-Learning about routing
-----------------------
+### Learning about routing
 
 So with that first bit out of the way, I tried puzzling my way through MapleTree
 and decided to switch to choreographer, which is... simpler, in a lot of ways.
@@ -40,6 +39,21 @@ choreographer hasn't been updated in a while so I may switch sometime. I dunno.
 Then again, choreographer is simple enough that I don't see it breaking or
 needing updates, really.
 
-
 Anyway, so now that I've got the ability to grab a buffer of markdown, next up
 is rendering and serving it. Hurrah.
+
+Day 3
+-----
+
+Now work begins on actually being able to access different Git versions of a
+file rather than just passing "fs" as the version argument to every Git
+function.
+
+Basically, it all starts with git.getHead(callback). I think.
+
+### A note on control flow
+
+I'd really like to use [async](http://github.com/caolan/async) for both flow
+control and obviously, asynchronous execution, but I've decided to write a first
+iteration using raw callbacks and then refactor to use async at some point for
+practice.
