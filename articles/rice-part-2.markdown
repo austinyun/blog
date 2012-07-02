@@ -100,3 +100,22 @@ one I should break.
 
 Capslock -> ESC might work too, since I'm a Vim user and all. But I'm 90% sure
 my recent wrist pain is from left ALT+1/2/3/4 all the time.
+
+### POSSIBLE SOLUTION
+
+Oh lawd, I just had a brilliant idea.
+
+1. Make rice child_process.exec git clone the contents of the blog, but not the
+   blog engine (would have to be hosted in a different repo with just articles
+   and static files and stuff). Oh wait, maybe I should put it in server.js
+   before rice() is executed. That keeps them separated.
+2. That will handle the problem of not having a git repo for git-fs to use.
+   Hopefully. I'll have to experiment with it later.
+
+So now I have indeed replaced Jade with doT. Name no longer makes sense. Sigh.
+
+Anyway, I started on the parser. At the moment it's basically a copy/paste of
+the markdown preprocessing function from [wheat's
+data.js.](http://github.com/creationix/wheat/blob/master/lib/wheat/data.js#L8)
+
+Having a lot of fun.
