@@ -57,3 +57,43 @@ I'd really like to use [async](http://github.com/caolan/async) for both flow
 control and obviously, asynchronous execution, but I've decided to write a first
 iteration using raw callbacks and then refactor to use async at some point for
 practice.
+
+I've begun using the CSS files and touch favicons from
+[Skeleton](http://github.com/dhgamache/Skeleton) with a few changes, mostly
+involving me not giving a shit about IE compatability. Oh yeah, and I replaced
+the default favicon with Twilight Sparkle, of couse.
+
+OK, so I've run into a show-stopper of a problem even though everything is going
+well coding wise.
+
+Basically, git-fs, the cornerstone of the engine, won't work on Heroku. And it's
+not a problem with git-fs, rather, the problem is that _stuff pushed to Heroku
+is not a git repository._
+
+Sooooooooo, I guess I'll have to fork rice in order to not use git-fs and ditch
+the automatic versioning feature if I want to deploy on Heroku. Either that, or
+use a no.de instance (might work, not sure, proably will since wheat runs
+there), but man, is that a bummer.
+
+On the plus side, I've got a lot of the Jade templating stuff figured out, so
+yay about that.
+
+Day 4
+-----
+
+Considering going back to MapleTree. The partial matches and stuff might be
+useful.
+
+Also, very strongly considering switching Jade for doT, which is about 100,000
+times faster. But then the name wouldn't make sense, hahahaha. Oh well. I'm a
+big fan of purely declarative templates. Separating UI from logic and all that.
+
+My left wrist is starting to hurt. Need a new keyboard. Got to remember to use
+the right ALT key too. May rebind Capslock from CTRL to ALT since I'm using ALT
+more it seems.
+
+You know, I never use the right modifier keys? It's a bad habit, and probably
+one I should break.
+
+Capslock -> ESC might work too, since I'm a Vim user and all. But I'm 90% sure
+my recent wrist pain is from left ALT+1/2/3/4 all the time.
