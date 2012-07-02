@@ -82,11 +82,14 @@ Day 4
 -----
 
 Considering going back to MapleTree. The partial matches and stuff might be
-useful.
+useful. Also, it's in active development, unlike Choreographer.
 
 Also, very strongly considering switching Jade for doT, which is about 100,000
 times faster. But then the name wouldn't make sense, hahahaha. Oh well. I'm a
 big fan of purely declarative templates. Separating UI from logic and all that.
+
+However, doT doesn't seem to be in active development, unlike Handlebars, which
+is the other alternative. :\
 
 My left wrist is starting to hurt. Need a new keyboard. Got to remember to use
 the right ALT key too. May rebind Capslock from CTRL to ALT since I'm using ALT
