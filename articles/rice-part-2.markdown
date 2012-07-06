@@ -119,3 +119,14 @@ the markdown preprocessing function from [wheat's
 data.js.](http://github.com/creationix/wheat/blob/master/lib/wheat/data.js#L8)
 
 Having a lot of fun.
+
+Day 5
+-----
+
+Alright, I've got pretty much up and running with doT and marked. Awwwwww yeah.
+Also, rice now stores the compiled doT index and article templates in memory
+after the first time, so that the template itself doesn't have to be compiled
+every time.
+
+Now I've basically got to implement the part where rice builds a list of
+articles sorted by date to make the index object.
