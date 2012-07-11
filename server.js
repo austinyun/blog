@@ -1,4 +1,4 @@
-var rice = require('./rice'),
+var rice = require('rice'),
     port = process.env.PORT || 8080;
 
 rice().listen(port, function() {
