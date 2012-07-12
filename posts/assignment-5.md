@@ -2,15 +2,13 @@ Title: Java II Assignment #5
 Author: Austin Yun
 Date: 2012-05-22
 
-The Problem
-===========
+### The Problem
 
 Assassin Game
 
 [Link to the repo](https://github.com/austinyun/C-Sci/tree/master/C-Sci-143/Assignment%205/src)
 
-Attempt 1
-=========
+### Attempt 1
 
 I sat down and tried to bang out a solution without any real thought. Surprise surprise, it didn't work. Oh well. I'm going to take a shower and think it through. First, stuff I know.
 
@@ -23,7 +21,6 @@ Given those points, it's clear that basically what I need to is make a circular 
 
 Actually, the graveyard also includes who killed who. OK, well in that case I suppose I have to reuse the node objects and use node.getKiller() and stuff. So what do I do, make another linked list for the graveyard? Meh. I'll worry about that part later. First, how to construct a circular linked list, and implement get, kill, next, and all that.
 
-Attempt 2
-=========
+### Attempt 2
 
 OK I think I got everything working. Yay. The kill method is a little ugly though, but I can't think of a way to clean it up at the moment.

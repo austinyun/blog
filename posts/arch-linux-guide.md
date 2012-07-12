@@ -2,8 +2,7 @@ Title: Arch Linux Guide
 Author: Austin Yun
 Date: 2012-06-25
 
-Install Arch Linux
-==================
+###Install Arch Linux
 Install Arch Linux. Getting a base system shouldn't be too hard, and there's
 guides available. The only thing I recommend is that you set up your partitions
 _first_ if possible. The partitioning from within the Arch install isn't very
@@ -13,8 +12,7 @@ If all has gone well, after logging into your new system, you should be staring
 and a black and white tty. Login as root. Which should be the only available
 option at this point.
 
-Setup pacman
-============
+###Setup pacman
 Pacman is Arch's pacage manager -- similar to Debian/Ubuntu's apt, and OS X's
 homebrew. It's most similar in design and philosophy to the BSD ports sytem,
 however. To start,
@@ -50,8 +48,7 @@ Make sure to use the -yy flag instead of a single -y as usual when you've
 updated the mirrorlist. That forces pacman to re-examine the mirror list even if
 it thinks it's up to date.
 
-Install Helpful Programs
-========================
+###Install Helpful Programs
 Login manager and terminal
 
 ```bash
@@ -86,8 +83,7 @@ name of the package. I use Google Chrome as my browser, for instance, so:
 
 And now you can just use Google to search for other software you need. Yay.
 
-Thunar (file manager)
-=====================
+###Thunar (file manager)
 ```bash
     pacman -S thunar thunar-archive-plugin thunar-media-tags-plugin
     pacman -S tumbler gvfs polkit-gnome gtk-engines gtk-theme-switch2 feh
@@ -97,14 +93,12 @@ Run gtk-theme-switch2 and switch to Clearlooks, ASAP. The default GTK theme is
 unbearably ugly. I've also included 'feh' in there, which is an image viewer
 that lets you set desktop backgrounds. Cool.
 
-Setting up Git
-==============
+###Setting up Git
 First, we need to set up authentication. Open ~/.ssh/id\_rsa.pub and copy it to
 your github account. Log in to github, click "edit your profile", click "SSH
 Keys" on the left, and paste the contents of the file in there.
 
-Configuration
-=============
+###Configuration
 Run the 'adduser' command to make a new user so you're not logged in as root all
 the time. Make sure to add your new user to the wheel group.
 
