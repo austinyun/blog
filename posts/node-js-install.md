@@ -1,4 +1,4 @@
-Title: Node JS Installation and Startup Woes
+Title: Node.js Installation and Startup Woes
 Author: Austin Yun
 Date: 2012-05-28
 

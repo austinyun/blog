@@ -1,4 +1,4 @@
-Title: NodeJS and Vim Hack
+Title: Node.js and Vim Hack
 Author: Austin Yun
 Date: 2012-05-30
 
