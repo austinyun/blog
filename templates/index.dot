@@ -16,24 +16,29 @@
 </head>
 <body class="container">
 
-<header id="header"><h1><a href="http://www.austinyun.com/">Page Header</a></h1><hr></header>
+<header id="header"><h1><a href="http://www.austinyun.com/">My Blog (AustinYun.com)</a></h1><hr></header>
 
-<section id="main" class="twelve columns offset-by-one content">
+<section id="main" class="ten columns offset-by-one content">
 
 {{~it.articles :value}}
 <article><h2><a href={{=value["link"]}}>{{=value["title"]}}</a></h2>
-    <p class="leader">{{=value["date"]}}</p>
+    <p class="leader">Published: {{=value["date"]}}</p>
     <p>{{=value["summary"]}}</p>
 </article>
 {{~}}
 
 </section>
 
-<section id="nav" class="three columns sidebar"><nav>
-    <h3 id="nav_header">Navigation Header</h3>
-    <ul><li>Nav Item 1</li>
-        <li>Nav Item 2</li>
-        <li>Nav Item 3</li>
+<section id="nav" class="three columns offset-by-one sidebar"><nav>
+    <ul><li>Home</li>
+        <li>About Me</li>
+        <li>Archive</li>
+    </ul>
+    <h4 id="nav_header">Links</h4>
+    <ul><li><a href="http://www.twitter.com/austinyun">Twitter</a></li>
+        <li><a href="http://www.github.com/austinyun">GitHub</a></li>
+        <li><a href="http://stackoverflow.com/users/843854/austin-yun">Stack
+        Overflow</a></li>
     </ul>
 </nav></section>
 
