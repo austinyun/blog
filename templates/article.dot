@@ -24,7 +24,7 @@
 <article>
 <header>
     <h2 class="article_title"><a href={{="http://www.austinyun.com/" + it.link}}>{{=it.title}}</a></h2>
-    <p class="leader">Published {{=it.date}}</p>
+    <p class="lead">Published {{=it.date}}</p>
 </header>
 
 {{=it.html}}
@@ -32,12 +32,12 @@
 </section>
 
 <section id="nav" class="three columns offset-by-one sidebar"><nav>
-    <ul><li>Home</li>
+    <ul class="large"><li>Home</li>
         <li>About Me</li>
         <li>Archive</li>
     </ul>
     <h4 id="nav_header">Links</h4>
-    <ul><li><a href="http://www.twitter.com/austinyun">Twitter</a></li>
+    <ul class="large"><li><a href="http://www.twitter.com/austinyun">Twitter</a></li>
         <li><a href="http://www.github.com/austinyun">GitHub</a></li>
         <li><a href="http://stackoverflow.com/users/843854/austin-yun">Stack
         Overflow</a></li>

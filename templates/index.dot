@@ -21,8 +21,11 @@
 <section id="main" class="ten columns offset-by-one content">
 
 {{~it.articles :value}}
-<article><h2><a href={{=value["link"]}}>{{=value["title"]}}</a></h2>
-    <p class="leader">Published: {{=value["date"]}}</p>
+<article>
+    <header class="row">
+        <h2 class="eight columns alpha"><a href={{=value["link"]}}>{{=value["title"]}}</a></h2>
+        <h6 class="two columns omega date">{{=value["date"]}}</h6>
+    </header>
     <p>{{=value["summary"]}}</p>
 </article>
 {{~}}
@@ -30,12 +33,12 @@
 </section>
 
 <section id="nav" class="three columns offset-by-one sidebar"><nav>
-    <ul><li>Home</li>
+    <ul class="large"><li>Home</li>
         <li>About Me</li>
         <li>Archive</li>
     </ul>
     <h4 id="nav_header">Links</h4>
-    <ul><li><a href="http://www.twitter.com/austinyun">Twitter</a></li>
+    <ul class="large"><li><a href="http://www.twitter.com/austinyun">Twitter</a></li>
         <li><a href="http://www.github.com/austinyun">GitHub</a></li>
         <li><a href="http://stackoverflow.com/users/843854/austin-yun">Stack
         Overflow</a></li>
