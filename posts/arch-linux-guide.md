@@ -2,6 +2,10 @@ Title: Arch Linux Guide
 Author: Austin Yun
 Date: 2012-06-25
 
+I've spent enough time recently installing and configuring a brand new [Arch
+Linux](http://www.archlinux.org) system to be my development environment that I
+decided I might as well make a blog post of it.
+
 ###Install Arch Linux
 Install Arch Linux. Getting a base system shouldn't be too hard, and there's
 guides available. The only thing I recommend is that you set up your partitions
