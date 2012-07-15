@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Home Page</title>
+    <title>Turn A x</title>
     <meta name="description" content="A blogging engine thing">
     <meta name="author" content="Austin Yun">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -16,37 +16,41 @@
 </head>
 <body class="container">
 
-<header id="header"><h1><a href="http://www.austinyun.com/">My Blog (AustinYun.com)</a></h1><hr></header>
+<header id="banner"><h1>
+    <a href="http://www.austinyun.com/"><abbr title="For all x">∀ x</abbr></a>
+</h1><hr /></header>
 
 <section id="main" class="ten columns offset-by-one content">
-
-{{~it.articles :value}}
-<article>
-    <header class="row">
-        <h2 class="eight columns alpha"><a href={{=value["link"]}}>{{=value["title"]}}</a></h2>
-        <h6 class="two columns omega date">{{=value["date"]}}</h6>
-    </header>
-    <p>{{=value["summary"]}}</p>
-</article>
-{{~}}
-
+    {{~it.articles :value}}
+    <article>
+        <header class="row">
+            <h2 class="eight columns alpha"><a href={{=value["link"]}}>{{=value["title"]}}</a></h2>
+            <h6 class="two columns omega date">{{=value["date"]}}</h6>
+        </header>
+        {{=value["summary"]}}
+    </article>
+    {{~}}
 </section>
 
-<section id="nav" class="three columns offset-by-one sidebar"><nav>
-    <ul class="large"><li>Home</li>
+<nav class="three columns offset-by-one sidebar">
+    <h2>Links</h2>
+    <hr>
+    <ul id="internal_links">
         <li>About Me</li>
+        <li>About This Website</li>
         <li>Archive</li>
     </ul>
-    <h4 id="nav_header">Links</h4>
-    <ul class="large"><li><a href="http://www.twitter.com/austinyun">Twitter</a></li>
+    <h2>Social</h2>
+    <hr>
+    <ul id="external_links">
+        <li><a href="http://www.twitter.com/austinyun">Twitter</a></li>
         <li><a href="http://www.github.com/austinyun">GitHub</a></li>
-        <li><a href="http://stackoverflow.com/users/843854/austin-yun">Stack
-        Overflow</a></li>
+        <li><a href="http://stackoverflow.com/users/843854/austin-yun">Stack Overflow</a></li>
     </ul>
-</nav></section>
+</nav>
 
-<footer id="page_footer"><hr>
-    <p> &copy; 2012 Austin Yun, MIT License</p>
+<footer id="license"><hr>
+    <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a>
 </footer>
 
 </body></html>
