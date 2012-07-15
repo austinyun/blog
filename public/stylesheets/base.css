@@ -39,7 +39,7 @@ body {
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
     -webkit-text-size-adjust: 100%;
 }
-footer { text-align: center }
+footer { text-align: center; }
 
 
 /* #Typography
