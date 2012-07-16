@@ -1,11 +1,13 @@
-Title: Java II Assignment #5 Author: Austin Yun Date: 2012-05-22
+Title: Java II Assignment #5
+Author: Austin Yun
+Date: 2012-05-22
 
 For assignment #5 I'm supposed to make a game called (lazily enough) the
 Assassins Game. Basically, you have a list of random people, who have a random
 target, and a random person who is targetting them. They all kill eachother
 until only one person is remaining, and that person is the winner. 
 
-[Link to the repo](http://github.com/austinyun/C-Sci/tree/master/C-Sci-143/Assignment%205/src)
+[Link to the repo][1]
 
 ### Attempt 1
 
@@ -38,3 +40,5 @@ get, kill, next, and all that.
 
 OK I think I got everything working. Yay. The kill method is a little ugly
 though, but I can't think of a way to clean it up at the moment.
+
+[1]: http://github.com/austinyun/C-Sci/tree/master/C-Sci-143/Assignment%205/src
