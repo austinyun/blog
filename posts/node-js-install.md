@@ -1,8 +1,7 @@
-Title: Node.js Installation and Startup Woes
+Title: Node.js Installation
 Author: Austin Yun
 Date: 2012-05-28
 
-### Installing Node via NVM
 So right now I'm giving nvm a try, which is the node version manager.
 
 First I uninstalled the apt version of node
