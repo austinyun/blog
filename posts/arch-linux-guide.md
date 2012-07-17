@@ -20,6 +20,7 @@ option at this point.
 Pacman is Arch's pacage manager -- similar to Debian/Ubuntu's apt, and OS X's
 homebrew. It's most similar in design and philosophy to the BSD ports sytem,
 however. To start,
+
 ```bash
     pacman-key --init 
 ```
@@ -33,13 +34,13 @@ goes faster if you provide a source of randomness to the computer.
 Answer yes to everything, but hopefully that goes without saying.
 
 Next, we're going to setup pacman's list of mirrors so that it only tries to
-download from the six fastest. Big performance improvement.
+download from the five fastest. Big performance improvement.
 
 ```bash
     cd /etc/pacman.d
-
     cp mirrorlist mirrorlist.backup
-    rankmirrors -n 6 mirrorlist.backup > mirrorlist
+    pacman -S reflector
+    reflector -l 5 --sort rate --save /etc/pacman.d/mirrorlist
 ```
 
 To update and upgrade everything, do the following:
