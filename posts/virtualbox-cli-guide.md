@@ -1,4 +1,4 @@
-Title: VirtualBox CLI management
+Title: VirtualBox CLI Management
 Author: Austin Yun
 Date: 2012-07-20
 
