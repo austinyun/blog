@@ -33,6 +33,18 @@
 </section>
 
 <nav class="three columns offset-by-one sidebar">
+    <div id="coderwall_badges">
+        <script type="text/javascript" src="http://coderwall-widget.appspot.com/coderwallbadges.js/austinyun">
+        </script>
+        <script>
+            new CoderwallWidget({
+                'color':'black',
+                'backgroundColor':'transparent',
+                'width':160,
+                'height':50
+                });
+        </script>
+    </div>
     <h2>Links</h2>
     <hr>
     <ul id="internal_links">
@@ -50,6 +62,7 @@
 </nav>
 
 <footer id="license"><hr>
+
     <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a>
 </footer>
 
