@@ -97,6 +97,9 @@ equal to 1, five times, and from then on leave it alone.
 The other big piece of the problem is going through the array from either side.
 Well, as it turns out, a simple fold / foldr saves the day.
 
+[For kicks, here's my original solution.][4]
+
 [1]: blog.jazzychad.net/2012/08/01/array-iteration-problem.html
 [2]: news.ycombinator.com
-[3]: https://github.com/austinyun/challenges/blob/master/array-iteration-interview-problem/add1.js 
+[3]: https://github.com/austinyun/challenges/blob/master/array-iteration-interview-problem/add1.js
+[4]: https://gist.github.com/3243470
