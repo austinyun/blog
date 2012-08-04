@@ -5,7 +5,7 @@ Date: 2012-05-22
 For assignment #5 I'm supposed to make a game called (lazily enough) the
 Assassins Game. Basically, you have a list of random people, who have a random
 target, and a random person who is targetting them. They all kill eachother
-until only one person is remaining, and that person is the winner. 
+until only one person is remaining, and that person is the winner.
 
 [Link to the repo][1]
 
