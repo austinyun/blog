@@ -1,16 +1,15 @@
 {
     "author": "Austin Yun <w.austin.yun@gmail.com>",
     "name": "blog",
-    "version": "0.0.1",
+    "version": "0.0.0",
+    "subdomain": "austinyun.blog",
     "scripts": {
-        "start": "node server.js"
+        "start": "server.js"
     },
-    "analyze": false,
     "dependencies": {
-        "rice": "0.0.x"
+        "rice": "v0.0.x"
     },
     "engines": {
-        "node": "0.8.x",
-        "npm": "1.1.x"
+      "node": "v0.6.x"
     }
 }
