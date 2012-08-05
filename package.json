@@ -2,10 +2,6 @@
     "author": "Austin Yun <w.austin.yun@gmail.com>",
     "name": "blog",
     "version": "0.0.1",
-    "scripts": {
-        "start": "node server.js"
-    },
-    "analyze": false,
     "dependencies": {
         "rice": "0.0.x"
     },
