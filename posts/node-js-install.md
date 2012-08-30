@@ -1,6 +1,8 @@
-Title: Node.js Installation
-Author: Austin Yun
-Date: 2012-05-28
+{
+    "title": "Node.js Installation",
+    "author": "Austin Yun",
+    "date": "2012-05-28"
+}
 
 So right now I'm giving nvm a try, which is the node version manager.
 

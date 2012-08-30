@@ -1,6 +1,8 @@
-Title: Rice, Part 3
-Author: Austin Yun
-Date: 2012-07-08
+{
+    "title": "Rice, Part 3",
+    "author": "Austin Yun",
+    "date": "2012-07-08"
+}
 
 So now that the initial featureset is complete, I wonder what step I should take
 next? Do I add tests for behaviour? Do I refactor the existing code? Or do I

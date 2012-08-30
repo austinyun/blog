@@ -1,6 +1,8 @@
-Title: Rice, Part 2
-Author: Austin Yun
-Date: 2012-06-28
+{
+    "title": "Rice, Part 2",
+    "author": "Austin Yun",
+    "date": "2012-06-28"
+}
 
 So obviously the first part of recreating Wheat is understanding just what the
 hell Wheat does. Unfortunately for me, it seems the Git integration part of

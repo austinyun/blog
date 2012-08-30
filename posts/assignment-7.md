@@ -1,6 +1,8 @@
-Title: Java II Assignment #7 -- Hangman in Swing!
-Author: Austin Yun
-Date: 2012-06-05
+{
+    "title": "Java II Assignment #7",
+    "author": "Austin Yun",
+    "date": "2012-06-05"
+}
 
 Today, I have to implement a version of Hangman, without using the ACM Graphics
 package. That's about it. Everything else is flexible. Yay.

@@ -1,6 +1,8 @@
-Title: Rice, Part 1
-Author: Austin Yun
-Date: 2012-06-28
+{
+    "title": "Rice, Part 1",
+    "author": "Austin Yun",
+    "date": "2012-06-28"
+}
 
 Today, I (re)-started my first real Javascript/NodeJS project. [I'm calling it Rice.](http://github.com/austinyun/rice)
 

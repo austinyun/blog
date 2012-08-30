@@ -1,6 +1,8 @@
-Title: Challenge: Array Incrementing
-Author: Austin Yun
-Date: 2012-08-03
+{
+    "title": "Challenge: Array Incrementing",
+    "author": "Austin Yun",
+    "date": "2012-08-03"
+}
 
 I ran across a [very interesting blog post][1] while browsing [Hacker News][2] the
 other day. The author goes over one of his favorite intervew questions to pose,

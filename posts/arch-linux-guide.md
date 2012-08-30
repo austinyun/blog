@@ -1,6 +1,8 @@
-Title: Arch Linux Guide
-Author: Austin Yun
-Date: 2012-06-25
+{
+    "title": "Arch Linux Guide",
+    "author": "Austin Yun",
+    "date": "2012-06-25"
+}
 
 I've spent enough time recently installing and configuring a brand new [Arch
 Linux](http://www.archlinux.org) system to be my development environment that I

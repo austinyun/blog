@@ -1,6 +1,8 @@
-Title: Java II Assignment #6
-Author: Austin Yun
-Date: 2012-05-31
+{
+    "title": "Java II Assignment #6",
+    "author": "Austin Yun",
+    "date": "2012-05-31"
+}
 
 This assignment, I have to make a binary search tree class for a game of 20
 questions (though not necessarily with a depth of 20), that can do the

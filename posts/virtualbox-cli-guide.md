@@ -1,6 +1,8 @@
-Title: VirtualBox CLI Management
-Author: Austin Yun
-Date: 2012-07-20
+{
+    "title": "VirtualBox CLI Management",
+    "author": "Austin Yun",
+    "date": "2012-07-20"
+}
 
 If you're a fan of minimal desktop environments like I am, you may not want to
 install all of the dependencies for the VirtualBox GUI -- QT specifically. Not

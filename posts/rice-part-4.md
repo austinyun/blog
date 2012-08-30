@@ -1,6 +1,8 @@
-Title: Rice, Part 4
-Author: Austin Yun
-Date: 2012-07-15
+{
+    "title": "Rice, Part 4",
+    "author": "Austin Yun",
+    "date": "2012-07-15"
+}
 
 So one of the things I was concerned about was the fact that I sorted the index
 of articles to generate the home page, and then called array.reverse() on the

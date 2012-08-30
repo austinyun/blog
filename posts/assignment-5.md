@@ -1,6 +1,8 @@
-Title: Java II Assignment #5
-Author: Austin Yun
-Date: 2012-05-22
+{
+    "title": "Java II Assignment #5",
+    "author": "Austin Yun",
+    "date": "2012-05-22"
+}
 
 For assignment #5 I'm supposed to make a game called (lazily enough) the
 Assassins Game. Basically, you have a list of random people, who have a random
