@@ -27,14 +27,14 @@ Everything should be working. Type
     node --version
         v0.6.18
 
-### Installing Express
+# Installing Express
 That seemed to work amazingly well. Now, we go:
 
     npm install express -g
 
 To install Express, a web framework for Node, which I'm not using at the moment but likely will in the future. Awesomely enough, Node comes with it's own package manager, npm, and the syntax is very basic. The only thing of note is that the -g tag at the end installs the given package globally. You would do this for things that have their own command associated with them, like express does.
 
-### The blog engine
+# The blog engine
 So if you haven't been to [howtonode][1] you really should check it out, if for no other reason than to check out a blog that's running on Wheat, a blog engine written in Node. In fact, Tim Caswell of [howtonode][1] wrote Wheat, but unfortunately kind of skimped on the documentation. His suggestion to get up and running is to just clone the howtonode GitHub repository.
 
     cd

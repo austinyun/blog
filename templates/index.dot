@@ -16,18 +16,18 @@
 </head>
 <body class="container">
 
-<header id="banner"><h1>
-    <a href="http://www.austinyun.com/"><abbr title="For all x">∀ x</abbr></a>
+<header id="banner"><h1 id="site-title">
+    <a href="http://www.austinyun.com/"><abbr title="For all x">∀x</abbr></a>
 </h1><hr /></header>
 
 <section id="main" class="ten columns offset-by-one content">
     {{~it.articles :value}}
     <article>
-        <header class="row">
-            <h2 class="eight columns alpha"><a href={{=value["link"]}}>{{=value["title"]}}</a></h2>
-            <h6 class="two columns omega date">{{=value["date"]}}</h6>
+        <header>
+            <h1><a href={{=value["link"]}}>{{=value["title"]}}</a></h1>
         </header>
         {{=value["summary"]}}
+        <footer><hr /></footer>
     </article>
     {{~}}
 </section>
@@ -59,11 +59,9 @@
         <li><a href="http://www.github.com/austinyun">GitHub</a></li>
         <li><a href="http://stackoverflow.com/users/843854/austin-yun">Stack Overflow</a></li>
     </ul>
-</nav>
-
-<footer id="license"><hr>
-
+    <footer id="license"><hr>
     <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a>
-</footer>
+    </footer>
+</nav>
 
 </body></html>

@@ -19,16 +19,16 @@
 </head>
 <body class="container">
 
-<header id="banner"><h1>
-<a href="http://www.austinyun.com/"><abbr title="For all x">∀ x</abbr></a>
+<header id="banner"><h1 id="site-title">
+<a href="http://www.austinyun.com/"><abbr title="For all x">∀x</abbr></a>
 </h1><hr /></header>
 
 <section id="main" class="ten columns offset-by-one content">
 
 <article>
 <header>
-    <h2 class="article_title"><a href={{="http://www.austinyun.com/" + it.link}}>{{=it.title}}</a></h2>
-    <p class="lead">Published {{=it.date}}</p>
+    <h1 class="article-title"><a href={{="http://www.austinyun.com/" + it.link}}>{{=it.title}}</a></h1>
+    <h6 class="date">Published {{=it.date}}</h6>
 </header>
 
 {{=it.html}}
@@ -62,11 +62,10 @@
         <li><a href="http://www.github.com/austinyun">GitHub</a></li>
         <li><a href="http://stackoverflow.com/users/843854/austin-yun">Stack Overflow</a></li>
     </ul>
+    <footer id="license"><hr>
+    <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a>
+    </footer>
 </nav>
 
-<footer id="license"><hr>
-<section class="coderwall" data-coderwall-username="austinyun" data-coderwall-orientation="horizontal"></section>
-<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a>
-</footer>
 
 </body></html>

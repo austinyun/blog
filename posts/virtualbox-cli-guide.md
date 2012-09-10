@@ -22,5 +22,5 @@ VBoxManage storageattach saas --storagectl "IDE Controller" --port 0 --device 0 
 
 VBoxSDL -vm saas --fullscreen
 ```
-[1]: http://class.coursera.org/saas-2012-003/class/index 
+[1]: http://class.coursera.org/saas-2012-003/class/index
 [2]: http://www.coursera.org/

@@ -18,7 +18,7 @@ following:
   question to distinguish it from what its guess was, and the answer to your
   question, and then edits the BST appropriately.
 
-### My solution
+# My solution
 
 This one I found fairly simple. Not necessarily easy, but I didn't get outright
 stuck on any part of the problem, although it took me embarrassingly long to

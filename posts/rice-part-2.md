@@ -19,7 +19,7 @@ One of my big hangups is that I'm trying to figure out how git-fs determines
 what the SHA/version of a file is. And every other call made to git-fs depends
 on that. Lol.
 
-### Day 2
+# Day 2
 
 Alright, so after reading a lot of code and tinkering, I've got git-fs mostly
 down. Phew. Turns out git-fs itself isn't that complicated, the problem came
@@ -28,7 +28,7 @@ Wheat using the Step library.
 
     Git.readDir("fs", "entries", function(err, data) {});
 
-#### Learning about routing
+## Learning about routing
 
 So with that first bit out of the way, I tried puzzling my way through MapleTree
 and decided to switch to choreographer, which is... simpler, in a lot of ways.
@@ -40,7 +40,7 @@ needing updates, really.
 Anyway, so now that I've got the ability to grab a buffer of markdown, next up
 is rendering and serving it. Hurrah.
 
-### Day 3
+# Day 3
 
 Now work begins on actually being able to access different Git versions of a
 file rather than just passing "fs" as the version argument to every Git
@@ -48,7 +48,7 @@ function.
 
 Basically, it all starts with git.getHead(callback). I think.
 
-#### A note on control flow
+## A note on control flow
 
 I'd really like to use [async](http://github.com/caolan/async) for both flow
 control and obviously, asynchronous execution, but I've decided to write a first
@@ -75,7 +75,7 @@ there), but man, is that a bummer.
 On the plus side, I've got a lot of the Jade templating stuff figured out, so
 yay about that.
 
-### Day 4
+# Day 4
 
 Considering going back to MapleTree. The partial matches and stuff might be
 useful. Also, it's in active development, unlike Choreographer.
@@ -97,7 +97,7 @@ one I should break.
 Capslock -> ESC might work too, since I'm a Vim user and all. But I'm 90% sure
 my recent wrist pain is from left ALT+1/2/3/4 all the time.
 
-#### POSSIBLE SOLUTION
+## POSSIBLE SOLUTION
 
 Oh lawd, I just had a brilliant idea.
 
@@ -116,7 +116,7 @@ data.js.](http://github.com/creationix/wheat/blob/master/lib/wheat/data.js#L8)
 
 Having a lot of fun.
 
-### Day 5
+# Day 5
 
 Alright, I've got pretty much up and running with doT and marked. Awwwwww yeah.
 Also, rice now stores the compiled doT index and article templates in memory

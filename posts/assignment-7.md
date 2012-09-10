@@ -7,12 +7,12 @@
 Today, I have to implement a version of Hangman, without using the ACM Graphics
 package. That's about it. Everything else is flexible. Yay.
 
-### Day 1
+# Day 1
 So far all I've got up is a HangmanMain.java and HangmanGUI.java. I've got a lot
 of thinking to do about how I'm going to do this, and of course I've got some
 Swing documentation to read.
 
-### Design phase
+# Design phase
 *   DISPLAY
     *   One window, split into two frames
     *   Top: Hangman display, Bottom: "Keyboard"
