@@ -7,10 +7,10 @@
 A quick bit of background -- I've always been pretty into classical music. My
 mom introduced me to Beethoven, and hearing Bach's Die Kunst der Fugue pretty
 much sealed it for me, although it wasn't until much later that I started liking
-Stravinsky, Liszt, Bartok, etc. -- but it wasn't until very recently (two years
-ago?) that I started getting into metal, and that happened pretty much entirely
-because I started playing the guitar myself and they tend to be at the cutting
-edge of modern guitar technique in a lot of ways.
+Stravinsky, Liszt, Bartok, etc. -- but it wasn't until *very* recently (two
+years ago?) that I started getting into metal, and that happened pretty much
+entirely because I started playing the guitar myself and they tend to be at the
+cutting edge of modern guitar technique in a lot of ways.
 
 After a bit of reflection, I decided to try to put together a list of songs that
 would provide an interesting intro to [Tech Death][tdm] for those like myself
@@ -53,15 +53,15 @@ music is generally focused on being as rhythmically complicated as possible, and
 I'll be damned if I know what they're doing half the time, except that it
 somehow still remains intensely groovy.
 
-Fredrik Thordendal is a riff machine, and Morgan Ågren, the drummer, is a
+Fredrik Thordendal is a riff machine, and Morgan Agren, the drummer, is a
 freaking master of his craft. He's not Meshuggah's usual drummer (he plays in a
 Swedish prog rock band I think, and has played with Zappa if I recall) but his
 drumming here and on the album is inhuman.
 
-Another interesting thing to note is how low Fredrik has his guitar tuned. In
-this clip I think he's playing in... F standard? Standard guitar tuning is
-EADGBE, standard seven string is BEADGBE, and I think Fredrik has everything
-shifted down to F though I may be mistaken. It's at least A.
+Another interesting thing to note is how low Fredrik has his guitar tuned.
+Meshuggah are famous for their low tunings, using seven, and later, eight string
+guitars. I'm guessing this is a perfect fifth below standard six string tuning,
+if not more.
 
 For some bonus Meshuggah, if you're down to ignore some vocals for a while,
 listen to [New Millenium Cyanide Christ][nmcc] , one of their older songs. If
