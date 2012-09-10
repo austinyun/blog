@@ -17,7 +17,7 @@ would provide an interesting intro to [Tech Death][tdm] for those like myself
 who are (or were) less than enthusiastic about the cookie monster vocals and
 image of the genre.
 
-## [A Gentle Introduction: Obscura - Transcendental Serenade][seranade]
+## [A Gentle Introduction: Obscura - Transcendental Serenade][serenade]
 
 So we'll start off with a fully instrumental song (minus a few bits of vocoder
 singing all the way at the end). Some interesting rhythmic bits, very
