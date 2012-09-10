@@ -17,7 +17,7 @@ would provide an interesting intro to [Tech Death][tdm] for those like myself
 who are (or were) less than enthusiastic about the cookie monster vocals and
 image of the genre.
 
-## [A Gentle Introduction: Obscura - Transcendental Seranade][seranade]
+## [A Gentle Introduction: Obscura - Transcendental Serenade][seranade]
 
 So we'll start off with a fully instrumental song (minus a few bits of vocoder
 singing all the way at the end). Some interesting rhythmic bits, very
@@ -112,7 +112,7 @@ I've left out a lot of my favorite bands (Nile in particular could have gone in
 this article) but in the interest of keeping it short I've cut out a lot.
 
 [tdm]: http://en.wikipedia.org/wiki/Technical_death_metal
-[seranade]: http://www.youtube.com/watch?v=pEsgYzK7q4A
+[serenade]: http://www.youtube.com/watch?v=pEsgYzK7q4A
 [mikesmith]: http://www.youtube.com/watch?v=_uoEJJ-7nMk
 [snw]: http://www.youtube.com/watch?v=HIdjLw-7Xa0
 [nmcc]: http://www.youtube.com/watch?v=XrNR76QwOjM
