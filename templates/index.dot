@@ -17,7 +17,7 @@
 <body class="container">
 
 <header id="banner"><h1 id="site-title">
-    <a href="http://www.austinyun.com/"><abbr title="For all x">∀x</abbr></a>
+    <a href="../"><abbr title="For all x">∀x</abbr></a>
 </h1><hr /></header>
 
 <section id="main" class="ten columns offset-by-one content">
@@ -48,7 +48,7 @@
     <h2>Links</h2>
     <hr>
     <ul id="internal_links">
-        <li>About Me</li>
+        <li><a href="../about" rel="author">About Me</a></li>
         <li>About This Website</li>
         <li>Archive</li>
     </ul>
@@ -60,7 +60,7 @@
         <li><a href="http://stackoverflow.com/users/843854/austin-yun">Stack Overflow</a></li>
     </ul>
     <footer id="license"><hr>
-    <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a>
+    <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by/3.0/80x15.png" height="15" width="85" /></a>
     </footer>
 </nav>
 

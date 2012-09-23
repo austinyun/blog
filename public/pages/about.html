@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>{{="Article: " + it.title}}</title>
+    <title>About Me</title>
     <meta name="description" content="A blogging engine thing">
     <meta name="author" content="Austin Yun">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="../public/stylesheets/base.css">
     <link rel="stylesheet" href="../public/stylesheets/skeleton.css">
     <link rel="stylesheet" href="../public/stylesheets/layout.css">
-    <link rel="stylesheet" href="../public/stylesheets/github.css">
     <link rel="shortcut icon" href="../public/images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="../public/images/apple-touch-icon-72x72.png">
@@ -24,15 +23,23 @@
 </h1><hr /></header>
 
 <section id="main" class="ten columns offset-by-one content">
-
-<article>
-<header>
-    <h1 class="article-title"><a href={{="../" + it.link}}>{{=it.title}}</a></h1>
-    <h6 class="date">Published {{=it.date}}</h6>
-</header>
-
-{{=it.html}}
-</article>
+<div id="about-me">
+    <header><h1>About Me</h1></header>
+    <p>Just another 23 year old resident of Seattle, WA.</p>
+    <p>Increasingly interested in Computer Science, namely Functional
+    Programming, elegant solutions, separation of concerns, decomplecting the
+    complex, and just generally cool stuff. Javascript + NodeJS and Clojure are
+    my tools of choice right now.</p>
+    <h2>Social Links</h2>
+    <ul>
+        <li><a href="http://profiles.google.com/113072110761797728268" rel="me">Google+</a></li>
+        <li><a href="http://twitter.com/austinyun" rel="me">Twitter</a></li>
+        <li><a href="http://facebook.com/austin.yun" rel="me">Facebook</a></li>
+        <li><a href="http://github.com/austinyun" rel="me">GitHub</a></li>
+        <li><a href="http://coderwall.com/austinyun" rel="me">Coderwall</a></li>
+        <li><a href="http://stackoverflow.com/users/843854/austin-yun" rel="me">Stack Overflow</a></li>
+    </ul>
+</div>
 </section>
 
 <nav class="three columns offset-by-one sidebar">
@@ -58,9 +65,10 @@
     <h2>Social</h2>
     <hr>
     <ul id="external_links">
-        <li><a href="http://www.twitter.com/austinyun">Twitter</a></li>
-        <li><a href="http://www.github.com/austinyun">GitHub</a></li>
-        <li><a href="http://stackoverflow.com/users/843854/austin-yun">Stack Overflow</a></li>
+        <li><a href="http://profiles.google.com/113072110761797728268" rel="me">Google+</a></li>
+        <li><a href="http://www.twitter.com/austinyun" rel="me">Twitter</a></li>
+        <li><a href="http://www.github.com/austinyun" rel="me">GitHub</a></li>
+        <li><a href="http://stackoverflow.com/users/843854/austin-yun" rel="me">Stack Overflow</a></li>
     </ul>
     <footer id="license"><hr>
     <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by/3.0/80x15.png" height="15" width="85" /></a>
