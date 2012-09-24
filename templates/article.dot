@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>{{="Article: " + it.title}}</title>
-    <meta name="description" content="A blogging engine thing">
+    <title>{{=it.title}}</title>
+    <meta name="description" content="{{=it.title}}">
     <meta name="author" content="Austin Yun">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="../public/stylesheets/base.css">
@@ -58,6 +58,7 @@
     <h2>Social</h2>
     <hr>
     <ul id="external_links">
+        <li><a href="http://careers.stackoverflow.com/austinyun" rel="me">Hire me!</a></li>
         <li><a href="http://www.twitter.com/austinyun">Twitter</a></li>
         <li><a href="http://www.github.com/austinyun">GitHub</a></li>
         <li><a href="http://stackoverflow.com/users/843854/austin-yun">Stack Overflow</a></li>
