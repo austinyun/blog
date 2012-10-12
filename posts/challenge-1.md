@@ -4,10 +4,9 @@
     "date": "2012-08-03"
 }
 
-I ran across a [very interesting blog post][1] while browsing [Hacker News][2] the
-other day. The author goes over one of his favorite intervew questions to pose,
-which is a really fun problem, because it's fairly simple, but has a lot of
-hidden complexities in it. Here's his actual definition of the problem:
+I ran across a [very interesting blog post][1] while browsing [Hacker News][2] the other day.
+The author goes over one of his favorite intervew questions to pose, which is a really fun problem, because it's fairly simple, but has a lot of hidden complexities in it.
+Here's his actual definition of the problem:
 ```
 add1 - increments items in an array matching specified value
 
@@ -24,11 +23,7 @@ param: n   - integer, control value specifying behavior of manipulation
 
 return: arr with proper values incremented
 ```
-
-Given that most of the solutions given were variations on the theme of looping
-through the array and changing the elements, I decided to channel Rich Hickey
-and try to decompose the problem into simpler pieces, and write composable pure
-functions to combine together into the final solution.
+Given that most of the solutions given were variations on the theme of looping through the array and changing the elements, I decided to channel Rich Hickey and try to decompose the problem into simpler pieces, and write composable pure functions to combine together into the final solution.
 
 [Here's how I did it.][3]
 
@@ -39,10 +34,8 @@ First, my analysis of the problem:
     * Increment each element if the value matches the one passed
         * But only do this n times!
 
-I tried to write a function `function(f, g, bool)` that would apply f if bool
-were true, and g if bool were false, and pass it a function `n_times` as the
-bool part.
-```
+I tried to write a function `function(f, g, bool)` that would apply f if bool were true, and g if bool were false, and pass it a function `n_times` as the bool part.
+```javascript
 function n_times(n) {
     var count = n;
     return function() {
@@ -54,11 +47,9 @@ function n_times(n) {
     }
 }
 ```
-
-The problem is that the counter in n_times decrements no matter what, and I want
-the counter to only decrement if I incremented a value! So I ended up writing a
-different function that takes care of most of the logic as follows:
-```
+The problem is that the counter in n_times decrements no matter what, and I want the counter to only decrement if I incremented a value!
+So I ended up writing a different function that takes care of most of the logic as follows:
+```javascript
 function choose(f, g, n) {
     var count = n;
 
@@ -72,13 +63,10 @@ function choose(f, g, n) {
     }
 }
 ```
-
-So here we have a function of two functions, f and g, and an integer, n, that
-returns a function that will apply f to its arguments n times, and then apply g
-to its arguments from there out.
+So here we have a function of two functions, f and g, and an integer, n, that returns a function that will apply f to its arguments n times, and then apply g to its arguments from there out.
 
 Then, I need two helpers:
-```
+```javascript
 function increment_if_match(value, item) {
     item = item === value ? item + 1 : item;
     return item;
@@ -86,15 +74,13 @@ function increment_if_match(value, item) {
 
 function identity(x) { return x; }
 ```
-
-Both pretty much do what they say on the tin. Now you compose the the pieces,
-```
+Both pretty much do what they say on the tin.
+Now you compose the the pieces,
+```javascript
 var incrementer = increment_if_match.bind(null, 1);
 var magic = choose(incrementer, identity, 5);
 ```
-
-And you have a function that will increment the thing it's passed in if it's
-equal to 1, five times, and from then on leave it alone.
+And you have a function that will increment the thing it's passed in if it's equal to 1, five times, and from then on leave it alone.
 
 The other big piece of the problem is going through the array from either side.
 Well, as it turns out, a simple fold / foldr saves the day.
